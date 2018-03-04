@@ -15,14 +15,14 @@ app.use(bodyParser.json())
 
 // Local
 //.......................................................
-const port = 3000
-var database = 'mongodb://localhost:27017/database-05'
+//const port = 3000
+//var database = 'mongodb://localhost:27017/database-05'
 //.......................................................
 
 // Producción
 //.....................................
-//var port = process.env.PORT
-//var database = process.env.MONGODB_URI
+var port = process.env.PORT
+var database = process.env.MONGODB_URI
 //.....................................
 
 //...................................................................
