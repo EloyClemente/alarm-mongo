@@ -53,8 +53,8 @@ function ajaxGetAll()
 	let parametros = {
 
 		method:    'GET',
-		route:     'http://localhost:3000/get',
-		// route:     'https://alarm-01.herokuapp.com/get',
+		//route:     'http://localhost:3000/get',
+		route:     'https://alarm-01.herokuapp.com/get',
 		content:    null,
 		urlencoded: null,
 		data:       null,
@@ -77,8 +77,8 @@ function ajaxPost(horas, minutos)
 	let parametros = {
 
 		method:     'POST',
-		route:      'http://localhost:3000/post',
-		// route:      'https://alarm-01.herokuapp.com/post',
+		//route:      'http://localhost:3000/post',
+		route:      'https://alarm-01.herokuapp.com/post',
 		content:    'Content-Type',
 		urlencoded: 'application/x-www-form-urlencoded',
 		data:       'horas=' + horas + '&minutos=' + minutos,
@@ -102,8 +102,8 @@ function ajaxDelete(id)
 	let parametros = {
 
 		method:     'DELETE',
-		route:      'http://localhost:3000/delete',
-		// route:      'https://alarm-01.herokuapp.com/delete',
+		//route:      'http://localhost:3000/delete',
+		route:      'https://alarm-01.herokuapp.com/delete',
 		content:    'Content-Type',
 		urlencoded: 'application/x-www-form-urlencoded',
 		data:       'ID=' + id,
