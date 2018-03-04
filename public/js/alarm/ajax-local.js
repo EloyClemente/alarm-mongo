@@ -54,7 +54,6 @@ function ajaxGetAll()
 
 		method:    'GET',
 		route:     'http://localhost:3000/get',
-		//route:     'https://alarm-01.herokuapp.com/get',
 		content:    null,
 		urlencoded: null,
 		data:       null,
